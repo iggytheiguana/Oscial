@@ -1,0 +1,47 @@
+13, Jan 2011 ( post details - lightbox issue solved)
+----------------------------------
+single.php
+library/js/fancybox (new javascript,css,images added)
+
+Removed this files
+-------------------------
+library/js/mootools.js
+library/js/slimbox.js
+library/css/slimbox.css 
+
+
+
+10th Jan-2011 (change the image zoom functionality for detail page)
+----------------------------------------------------
+library/js/mootools.js
+library/js/slimbox.js
+single.php
+
+
+Aug 13 2010 ( Video post featured thumb image add, comment & trackback separate, Header Top Banner link change, widget -> PT - Social Media  box text change)
+----------------------------------------------------
+style.css
+comments.php
+404.php
+single.php
+footer.php
+library/functions/comments_functions.php
+library/functions/custom_functions.php
+library/functions/widgets_functions.php
+library/functions/admin_options.php 
+
+
+28 july 2010   ( widget - no image error solved )
+--------------------------------------------------------------
+widget_funcation.php
+
+style.css
+--------(theme multi language support - localization facility)--------
+library/functions/yast-posts.php
+library/functions/most-popular.php
+
+
+24 july 2010  (comment problem on detail page - solved)
+--------------------------------------------------------------
+library/functions/custom_functions.php -- (added new function "get_related_posts")
+single.php  -- (call above function in the file)

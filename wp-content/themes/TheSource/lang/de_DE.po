@@ -1,0 +1,250 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TheSource 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-20 21:57+0600\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ann <anochka1985@gmail.com>\n"
+"Language-Team: Ann <anochka1985@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../comments.php:9
+msgid "Please do not load this page directly. Thanks!"
+msgstr "Uploaden Sie bitte diese Seite direkt nicht. Danke!"
+
+#: ../comments.php:13
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Dieser Artikel ist passwortgeschützt. Geben Sie Ihr Passwort ein um die Kommentare anzuzeigen."
+
+#: ../comments.php:24
+msgid "No comments"
+msgstr "Keine Kommentare"
+
+#: ../comments.php:24
+msgid "One comment"
+msgstr "1 Kommentar"
+
+#: ../comments.php:24
+msgid "comments"
+msgstr "Kommentare"
+
+#: ../comments.php:43
+msgid "Trackbacks/Pingbacks"
+msgstr "Trackbacks/Pingbacks"
+
+#: ../comments.php:65
+msgid "Leave a Reply"
+msgstr "Einen Kommentar schreiben"
+
+#: ../comments.php:65
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Einen Kommentar schreiben zu %s"
+
+#: ../comments.php:71
+msgid "You must be"
+msgstr "Du musst"
+
+#: ../comments.php:71
+msgid "logged in"
+msgstr "eingeloggt"
+
+#: ../comments.php:71
+msgid "to post a comment."
+msgstr "sein um einen Kommentar zu schreiben."
+
+#: ../comments.php:75
+msgid "Logged in as"
+msgstr "Angemeldet als"
+
+#: ../comments.php:75
+msgid "Log out &raquo;"
+msgstr "Abmelden &raquo;"
+
+#: ../comments.php:79
+msgid "Name"
+msgstr "Name"
+
+#: ../comments.php:80
+#: ../comments.php:86
+msgid "(required)"
+msgstr "(ben&ouml;tigt)"
+
+#: ../comments.php:85
+msgid "Mail (will not be published)"
+msgstr "Mail (wird nicht ver&ouml;ffentlicht)"
+
+#: ../comments.php:91
+msgid "Website"
+msgstr "Website"
+
+#: ../comments.php:99
+msgid "Submit Comment"
+msgstr "Kommentar absenden"
+
+#: ../footer.php:29
+#: ../header.php:55
+msgid "Home"
+msgstr "Startseite"
+
+#: ../footer.php:35
+msgid "Designed by "
+msgstr "Designed by"
+
+#: ../footer.php:35
+msgid "Powered by "
+msgstr "Powered by"
+
+#: ../header.php:79
+msgid "search..."
+msgstr "suchen..."
+
+#: ../home.php:48
+msgid "Recent Posts"
+msgstr "Aktuelle Artikel"
+
+#: ../page-full.php:35
+#: ../page.php:29
+#: ../single.php:40
+msgid "Pages"
+msgstr "Suchen"
+
+#: ../page-full.php:36
+#: ../page.php:30
+#: ../single.php:41
+msgid "Edit this page"
+msgstr "Seite bearbeiten"
+
+#: ../searchform.php:4
+msgid "Search"
+msgstr "Suchen"
+
+#: ../includes/breadcrumb.php:8
+#: ../includes/pagetop.php:28
+msgid "Posts Tagged &quot;"
+msgstr "Artikel mit dem angegebenen Tag &quot;"
+
+#: ../includes/breadcrumb.php:10
+#: ../includes/breadcrumb.php:12
+#: ../includes/breadcrumb.php:14
+#: ../includes/pagetop.php:30
+#: ../includes/pagetop.php:32
+#: ../includes/pagetop.php:34
+msgid "Posts made in"
+msgstr "Artikel von"
+
+#: ../includes/breadcrumb.php:16
+#: ../includes/pagetop.php:36
+msgid "Search results for"
+msgstr "Suchergebnisse für:"
+
+#: ../includes/breadcrumb.php:24
+#: ../includes/pagetop.php:44
+msgid "Posts by "
+msgstr "Artikel von"
+
+#: ../includes/entry.php:35
+#: ../includes/featured.php:45
+#: ../includes/recent-cat.php:23
+msgid "Read More"
+msgstr "Mehr"
+
+#: ../includes/featured.php:43
+#: ../includes/recent-cat.php:21
+msgid "Posted by"
+msgstr "Gepostet von"
+
+#: ../includes/featured.php:43
+#: ../includes/recent-cat.php:21
+msgid "on"
+msgstr "am"
+
+#: ../includes/featured.php:64
+msgid "Previous"
+msgstr "Zurück"
+
+#: ../includes/featured.php:65
+msgid "Next"
+msgstr "Weiter"
+
+#: ../includes/navigation.php:2
+msgid "&laquo; Older Entries"
+msgstr "&laquo; &Auml;ltere Eintr&auml;ge"
+
+#: ../includes/navigation.php:3
+msgid "Next Entries &raquo;"
+msgstr "Neuere Eintr&auml;ge &raquo;"
+
+#: ../includes/no-results.php:3
+msgid "No Results Found"
+msgstr "Nicht gefunden"
+
+#: ../includes/no-results.php:4
+msgid "The page you requested could not be found. Try refining your search, or use the navigation above to locate the post."
+msgstr "Keine Seite gefunden. Etwas anderes Suchen?"
+
+#: ../includes/postinfo.php:3
+#: ../includes/postinfo.php:8
+msgid "Posted"
+msgstr "Gepostet"
+
+#: ../includes/postinfo.php:3
+#: ../includes/postinfo.php:8
+msgid "by"
+msgstr "von"
+
+#: ../includes/postinfo.php:3
+msgid " in"
+msgstr " in"
+
+#: ../includes/postinfo.php:3
+#: ../includes/postinfo.php:8
+msgid "0 comments"
+msgstr "Keine Kommentare"
+
+#: ../includes/postinfo.php:3
+#: ../includes/postinfo.php:8
+msgid "1 comment"
+msgstr "1 Kommentar"
+
+#: ../includes/postinfo.php:8
+msgid "in"
+msgstr "in"
+
+#: ../includes/functions/comments.php:11
+msgid "(Edit)"
+msgstr "(Bearbeiten)"
+
+#: ../includes/functions/comments.php:15
+msgid "Your comment is awaiting moderation."
+msgstr "Dein Kommentar wartet auf die &Uuml;berpr&uuml;fung."
+
+#: ../includes/functions/comments.php:20
+msgid "Reply"
+msgstr "Antworten"
+
+#: ../includes/widgets/custom_post.php:22
+msgid "Posted on"
+msgstr "Gepostet am"
+
+#: ../includes/widgets/widget-tabbed.php:23
+msgid "Recent"
+msgstr "Letztes"
+
+#: ../includes/widgets/widget-tabbed.php:24
+msgid "Popular"
+msgstr "Beliebt"
+
+#: ../includes/widgets/widget-tabbed.php:25
+msgid "Random"
+msgstr "Zufällig"
+

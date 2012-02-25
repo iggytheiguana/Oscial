@@ -1,0 +1,291 @@
+
+ 
+/* Links -----------------------------------------------------------------------*/
+
+a { color: #579042; }
+a:hover { color: #333; }
+
+.imgleft { border:1px solid #dcdcd7; margin:0 15px 15px 0; }
+.imgright { border:1px solid #dcdcd7; margin:0 0 15px 15px; }
+
+
+/* STRUCTURE ----------------------------------*/
+
+body { background:#c4dbc3 url(../images/green_bg.png) repeat-x top ; color:#333;  }
+#page { background:#fff; }
+
+#footer { background:#778d76; }
+
+
+/* header ----------------------------------*/
+.head_date { color:#666; }
+
+#header p.description { border-top:1px solid #d7d7d2; border-bottom:1px solid #d7d7d2; color:#579042;  }
+
+#header p.rss { color:#666; }
+#header p.rss a { color:#666; background:url(../images/i_rss.gif) no-repeat 0px 0px; }
+#header p.rss a:hover { color:#333;  }
+
+/* navigation ------------------------------------ */
+#mainmenu_border {  border-bottom:1px solid #d1e5d3; border-top:1px solid #d1e5d3;}
+
+
+/* content ------------------------------------ */
+#content p {  color:#333; }
+#content li { background:url(../images/green_bullet.png) no-repeat left 4px; line-height:18px; }
+#content li ul li { background:url(../images/green_bullet.png) no-repeat left 4px; }
+#content ol li { background:none; }
+ 
+#content .posts { border-bottom:1px dashed #deded9;  }
+#content .posts h3.title { color:#333; }
+#content .posts h3.title a { color:#579042; border:none; }
+#content .posts h3.title a:hover { color:#333;  }
+
+#content .posts h2 { color:#333; }
+#content .posts h3 { color:#333; }
+#content .posts h4 { color:#333; }
+#content .posts h5 { color:#333; }
+#content .posts h6 { color:#333; }
+
+#content h1 { border-bottom:1px dashed #deded9; color:#7ea482; }
+#content h3 { border-bottom:1px dashed #deded9;   }
+#content h4 { color:#333; }
+#content h5 { color:#333; }
+#content h6 { color:#333; }
+
+blockquote { border-top:1px dotted #cccccc; border-bottom:1px dotted #cccccc; color:#186320; background:#eef2dc url(../images/green_quote.png) no-repeat 5px 8px; height:100%; overflow:hidden; }
+#content blockquote p { color:#186320 !important; }
+
+#content a { border-bottom:1px dotted #d2d2c3;  }
+
+#content .posts p.date { color:#666; }
+#content .posts p.date a { color:#666; border:none; }
+#content .posts p.date a:hover { color:#333; }
+
+#content .posts p.author { color:#666; text-transform:uppercase; border-bottom:1px dotted #dedede; }
+#content .posts p.author a { color:#666; border:none; }
+#content .posts p.author a:hover { color:#333; border:none; }
+
+#content .morelink a{ color:#666;  }
+#content .morelink:hover{ color:#333;  }
+
+
+.wp-pagenavi a, .wp-pagenavi a:link, .wp-pagenavi a:active { color:#333; background-color:#c4dbc3;  }
+.wp-pagenavi a:hover { color:#333; background:#9dc38f;  }
+.wp-pagenavi span.pages { background-color:#FFF; }
+.wp-pagenavi span.current { color:#fff; background:#579042; }
+.wp-pagenavi span.extend { color: #fff; background-color: #314332; }
+
+
+.page-nav a { border-bottom:none; }
+.nav-previous a {  background:url(../images/arrow-left.gif) no-repeat left; }
+.nav-next a { background:url(../images/arrow-right.gif) no-repeat right; border-bottom:none; }
+
+
+#content p.info { background:#F9F9F9 url(../images/info.png) no-repeat 12px 13px; border-bottom:1px solid #EEEEEE; border-top:1px solid #EEEEEE; }
+#content p.note { background:#FEF6D2 url(../images/note.png) no-repeat 14px 13px; border-bottom:1px solid #EFE3AE; border-top:1px solid #EFE3AE; }
+#content p.alert { background:#FFD9C8 url(../images/alert.png) no-repeat 12px 13px; border-bottom:1px solid #F0BAA2; border-top:1px solid #F0BAA2; }
+#content p.download { background:#EDFCD5 url(../images/download.png) no-repeat 10px 13px; border-bottom:1px solid #D4EBAF; border-top:1px solid #D4EBAF; }
+
+
+ 
+/************************************************
+*	Comments									*
+************************************************/
+#content .commentlist li .avatar { background: #FFFFFF; background:#fff url(../images/gravtar.png) no-repeat center;  }
+#commentform input {  border:1px solid #ccc; }
+
+
+#commentform .field  { color:#666;    }
+#commentform .field label {  color:#333;  }
+
+#commentform textarea {  border:1px solid #ccc; }
+	
+	
+#commentform #submit { color:#fff; background:#579042; border:none; }
+	
+#content .commentlist li { background:none; }
+#content .commentlist li a:hover { color:#000; }
+
+.thread-alt { background:#eef2dc;  }
+.thread-even { background:#fff; }
+	
+.depth-1 {  border-top:1px dotted #bfc2b2; border-bottom:1px dotted #bfc2b2;  }
+.even {  background:#eef2dc !important;  }
+.alt { background:#fff !important; }
+
+
+
+.gravatar { border:2px solid #999; background:url(../images/gravtar.png) no-repeat; } .commetmainauthor { background:#eee; overflow:hidden; height:100%; 
+margin-bottom:15px; border-bottom:1px solid #ccc; }
+.commetmain { background:#f8f8f8; border-bottom:1px solid #ccc; }
+
+/* sidebar ------------------------------------ */
+
+#sidebar h2 {color:#518456;  border-bottom:1px dotted #deded9; }
+#sidebar ul li ul li { border-bottom: 1px solid #deded9; }
+#sidebar ul li ul li a { color:#464646; background:url(../images/green_bullet.png) no-repeat 0 8px;  border-bottom:none;  }
+#sidebar ul li ul li a:hover { color:#000; }
+#sidebar ul li ul li ul li { border-bottom:none; }
+#sidebar ul li ul li ul li a { color: #464646; border-bottom:none; }
+#sidebar ul li ul li ul { border-bottom:none; }
+#sidebar ul li ul li ul li a:hover { color:#333; }
+
+/* footer ------------------------------------ */
+
+#footer p { color:#d8e6d8;  }
+#footer p a { color:#d8e6d8;  }
+#footer p a:hover { color:#fff; }
+
+#footer p.top { background:url(../images/top_arrow.gif) no-repeat 0 3px;  color:#fff;  }
+#footer p.top a { color:#fff; }
+#footer p.top a:hover { color:#fco;  }
+
+/* top menu ------------------------------------ */
+
+ul#navmenu-h {
+	background:#bcd8bf;
+	border:none;
+}
+ul#navmenu-h li a, ul#navmenu-v li a,
+ul#navmenu-h ul ul,
+ul#navmenu-h ul ul ul,
+ul#navmenu-h ul ul ul ul,
+ul#navmenu-v ul,
+ul#navmenu-v ul ul,
+ul#navmenu-v ul ul ul,
+ul#navmenu-h li:hover li a, ul#navmenu-v li:hover li a,
+ul#navmenu-h li.iehover li a, ul#navmenu-v li.iehover li a
+{
+	border-right: 1px solid #fff;
+}
+ul#navmenu-h li:hover li a, ul#navmenu-v li:hover li a,
+ul#navmenu-h li.iehover li a, ul#navmenu-v li.iehover li a {
+}
+/* Top level */
+ul#navmenu-h li a, ul#navmenu-v li a,
+
+/* 2nd Menu */
+ul#navmenu-h li:hover li a, ul#navmenu-v li:hover li a,
+ul#navmenu-h li.iehover li a, ul#navmenu-v li.iehover li a,
+
+ /* 3rd Menu */
+ul#navmenu-h li:hover li:hover li a, ul#navmenu-v li:hover li:hover li a,
+ul#navmenu-h li.iehover li.iehover li a, ul#navmenu-v li.iehover li.iehover li a,
+
+/* 4rd Menu */
+ul#navmenu-h li:hover li:hover li:hover li a, ul#navmenu-v li:hover li:hover li:hover li a,
+ul#navmenu-h li.iehover li.iehover li.iehover li a, ul#navmenu-v li.iehover li.iehover li.iehover li a,
+
+/* 5th Menu */
+ul#navmenu-h li:hover li:hover li:hover li:hover li a, ul#navmenu-v li:hover li:hover li:hover li:hover li a,
+ul#navmenu-h li.iehover li.iehover li.iehover li.iehover li a, ul#navmenu-v li.iehover li.iehover li.iehover li.iehover li a 
+{
+	background: #bcd8bf;
+	color: #010101;
+}
+
+/* Root Menu Hover Persistence */
+ul#navmenu-h a:hover, 
+ul#navmenu-h li:hover a, 
+ul#navmenu-h li.iehover a,
+ul#navmenu-h li:hover a:hover, 
+ul#navmenu-h li:hover li:hover a, 
+ul#navmenu-h li:hover li.iehover a,
+ul#navmenu-h li:hover li:hover a:hover, 
+ul#navmenu-h li:hover li:hover li:hover a, 
+ul#navmenu-h li:hover li:hover li.iehover a,
+ul#navmenu-h li:hover li:hover li:hover a:hover, 
+ul#navmenu-h li:hover li:hover li:hover li:hover a, 
+ul#navmenu-h li:hover li:hover li:hover li.iehover a,
+
+/* current page item ul#navmenu-h color setting ------------------------------------- */
+#navmenu-h li.current_page_item a,
+#navmenu-h li.current_page_item a:hover,
+#navmenu-h li ul li.current_page_item a,
+#navmenu-h li ul li.current_page_item a:hover,
+
+/* Remembers the parent page of the current page ------------------------------------- */
+
+#navmenu-h li.current_page_ancestor a,
+#navmenu-h li.current_page_ancestor a:hover,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor a,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor a:hover,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor li.current_page_item a,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor li.current_page_item a:hover,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a:hover,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a:hover,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a:hover,
+
+
+/* IE Specific ------------------------------------- */
+
+/* 2nd Menu Hover Persistence */
+ul#navmenu-h li:hover li a:hover, ul#navmenu-v li:hover li a:hover,
+ul#navmenu-h li:hover li:hover a, ul#navmenu-v li:hover li:hover a, 
+ul#navmenu-h li.iehover li a:hover, ul#navmenu-v li.iehover li a:hover,
+ul#navmenu-h li.iehover li.iehover a, ul#navmenu-v li.iehover li.iehover a,
+
+/* 3rd Menu Hover Persistence */
+ul#navmenu-h li:hover li:hover li a:hover, ul#navmenu-v li:hover li:hover li a:hover,
+ul#navmenu-h li:hover li:hover li:hover a, ul#navmenu-v li:hover li:hover li:hover a,
+ul#navmenu-h li.iehover li.iehover li a:hover, ul#navmenu-v li.iehover li.iehover li a:hover,
+ul#navmenu-h li.iehover li.iehover li.iehover a, ul#navmenu-v li.iehover li.iehover li.iehover a,
+
+/* 4rd Menu Hover Persistence */
+ul#navmenu-h li:hover li:hover li:hover li a:hover, ul#navmenu-v li:hover li:hover li:hover li a:hover,
+ul#navmenu-h li:hover li:hover li:hover li:hover a, ul#navmenu-v li:hover li:hover li:hover li:hover a,
+ul#navmenu-h li.iehover li.iehover li.iehover li a:hover, ul#navmenu-v li.iehover li.iehover li.iehover li a:hover,
+ul#navmenu-h li.iehover li.iehover li.iehover li.iehover a, ul#navmenu-v li.iehover li.iehover li.iehover li.iehover a,
+
+/* 5th Menu Hover */
+ul#navmenu-h li:hover li:hover li:hover li:hover li:hover a, ul#navmenu-v li:hover li:hover li:hover li:hover li:hover a,
+ul#navmenu-h li.iehover li.iehover li.iehover li.iehover li.iehover a,  ul#navmenu-v li.iehover li.iehover li.iehover li.iehover li.iehover a,
+ul#navmenu-h li:hover li:hover li:hover li:hover li a:hover, ul#navmenu-v li:hover li:hover li:hover li:hover li a:hover,
+ul#navmenu-h li.iehover li.iehover li.iehover li.iehover li a:hover, ul#navmenu-v li.iehover li.iehover li.iehover li.iehover li a:hover,
+
+/* IE verticle Specific ------------------------------------- */
+
+/* 2nd Menu Hover Persistence */
+ul#navmenu-h li:hover li a:hover, ul#navmenu-v li:hover li a:hover,
+ul#navmenu-h li:hover li:hover a, ul#navmenu-v li:hover li:hover a, 
+ul#navmenu-h li.iehover li a:hover, ul#navmenu-v li.iehover li a:hover,
+ul#navmenu-h li.iehover li.iehover a, ul#navmenu-v li.iehover li.iehover a,
+
+/* 3rd Menu Hover Persistence */
+ul#navmenu-h li:hover li:hover li a:hover, ul#navmenu-v li:hover li:hover li a:hover,
+ul#navmenu-h li:hover li:hover li:hover a, ul#navmenu-v li:hover li:hover li:hover a,
+ul#navmenu-h li.iehover li.iehover li a:hover, ul#navmenu-v li.iehover li.iehover li a:hover,
+ul#navmenu-h li.iehover li.iehover li.iehover a, ul#navmenu-v li.iehover li.iehover li.iehover a,
+
+/* 4rd Menu Hover Persistence */
+ul#navmenu-h li:hover li:hover li:hover li a:hover, ul#navmenu-v li:hover li:hover li:hover li a:hover,
+ul#navmenu-h li:hover li:hover li:hover li:hover a, ul#navmenu-v li:hover li:hover li:hover li:hover a,
+ul#navmenu-h li.iehover li.iehover li.iehover li a:hover, ul#navmenu-v li.iehover li.iehover li.iehover li a:hover,
+ul#navmenu-h li.iehover li.iehover li.iehover li.iehover a, ul#navmenu-v li.iehover li.iehover li.iehover li.iehover a,
+
+/* 5th Menu Hover */
+ul#navmenu-h li:hover li:hover li:hover li:hover li:hover a, ul#navmenu-v li:hover li:hover li:hover li:hover li:hover a,
+ul#navmenu-h li.iehover li.iehover li.iehover li.iehover li.iehover a,  ul#navmenu-v li.iehover li.iehover li.iehover li.iehover li.iehover a,
+ul#navmenu-h li:hover li:hover li:hover li:hover li a:hover, ul#navmenu-v li:hover li:hover li:hover li:hover li a:hover,
+ul#navmenu-h li.iehover li.iehover li.iehover li.iehover li a:hover, ul#navmenu-v li.iehover li.iehover li.iehover li.iehover li a:hover
+
+{ 
+background:#7ea482;
+color:#fff;
+}
+
+/*
+P.I.E. FLOAT CLEARING
+See http://www.positioniseverything.net/easyclearing.html 
+--------------------- */
+.clearfix:after { content: "."; clear: both; height: 0; visibility: hidden; display: block; }
+.clearfix {	display: inline-block; /* Fixes IE/Mac */ }
+
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block;}
+/* End hide from IE-mac */

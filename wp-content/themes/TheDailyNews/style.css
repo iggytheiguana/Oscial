@@ -1,0 +1,233 @@
+/*  
+
+Theme Name: The Daily News
+Author URI: http://www.premiumthemes.net/
+Version: 1.0
+Author: R. Bhavesh
+Description: Premium Themes is a theme by <a href="http://cssace.com/">R.Bhavesh</a> and <a href="http://premiumthemes.net/">PremiumThemes.net</a>.
+*/
+@import url("css/color-default.css");		/* styling color schemes css  */
+@import url("css/dropmenu.css");		/* styling color schemes css  */
+
+* { margin: 0; padding: 0; border:none; }
+/*	--------------------------------------------------
+Global Reset - Resets all browser defaults to 0
+-------------------------------------------------- */
+html, body { margin:0; padding:0;  }
+h1, h2, h3, h4, h5, h6, p, blockquote, address, big, cite, code, em, font, img, small, strike, strong, sub, sup, li, ol, ul, fieldset, form, label, legend, button, table, caption, tr, th, 		
+td { margin:0; padding:0; border:0; font-weight:normal; font-style:normal; font-size:100%; line-height:1; font-family:inherit; text-align:left; }
+table { border-collapse:collapse; border-spacing:0;  }
+ol, ul { list-style:none; }
+blockquote:before, blockquote:after { content:""; }
+
+/* Links -----------------------------------------------------------------------*/
+
+a {  text-decoration: none; outline:none; }
+a:hover {  }
+
+.imgleft { float:left; padding:2px; margin:0 15px 15px 0; }
+.imgright { float:right; padding:2px; margin:0 0 15px 15px; }
+
+.aleft { float:left; }
+.aright{ float:right; }
+
+hr { height:1px; color:#fff; clear:both; width:90% }
+
+/* STRUCTURE ----------------------------------*/
+
+body { font:12px Georgia, "Times New Roman", Times, serif; }
+#page { width:930px; margin:0 auto; padding:15px; }
+#header	{  position:relative; }
+
+#content { width:680px; float:left; }
+#sidebar { width:215px; float:right; }
+
+#footer { width:930px; margin:0 auto; padding:15px; }
+
+#wrapper { background:url(../images/sidebarbg.png) repeat-y right top;  }
+
+
+
+/* header ----------------------------------*/
+.header_center  { width:355px; margin:0 auto 10px auto; text-align:center; }
+.head_date { font-size:14px; position:absolute; left:0; top:37px; }
+.day { font-size:12px; }
+
+#header p.description { margin:5px auto; padding:5px 0 5px 0; text-align:center; text-transform:uppercase; letter-spacing:2px; font-family:Arial, Helvetica, sans-serif;  }
+
+#header p.rss { margin:0;  position:absolute; right:0; top:37px; font:11px Arial, Helvetica, sans-serif ; text-transform:uppercase; line-height:18px; }
+#header p.rss a { text-decoration:none; padding:0 0 8px 18px;  }
+
+/* navigation ------------------------------------ */
+#mainmenu_border { padding:1px 0; margin-bottom:10px; }
+
+
+/* content ------------------------------------ */
+#content p { margin:0 0 8px 0; padding:0; line-height:20px; }
+#content ul { margin:0 0 15px 0; padding:0; font-size:12px;}
+#content li { margin:0 0 5px 0; padding:0 0 0 12px; line-height:18px; }
+#content ul li ul { margin:8px 0 5px 0; padding:0; }
+#content li ul li { margin:0 0 5px 0; padding:0 0 0 12px;  }
+#content ol { margin:0; padding:0 0 10px 22px; list-style-type:decimal; font-size:12px; line-height:18px; }
+#content ol li ol { margin:8px 0 5px 18px; padding:0 0 0 0; }
+#content ol li { margin:0 0 5px 0; padding:0; }
+#content li a { text-decoration:none; }
+
+#content .posts { margin-bottom:25px; padding-bottom:15px; }
+#content .posts h3.title { margin:0; padding:5px 0 8px 0; font-size:30px; text-align:center;   }
+#content .posts h3.title a { text-decoration:none; }
+
+#content .posts h2 { margin:0; padding:5px 0 8px 0; font-size:26px; text-align:left;   }
+#content .posts h3 { margin:0; padding:10px 0 5px 0; font-size:24px; text-align:left; border-bottom:none;   }
+#content .posts h4 { margin:0; padding:10px 0 5px 0; font-size:20px; text-align:left;   }
+#content .posts h5 { margin:0; padding:10px 0 5px 0; font-size:18px; text-align:left;   }
+#content .posts h6 { margin:0; padding:10px 0 5px 0; font-size:16px; text-align:left;   }
+
+#content h1 { font-size:32px; margin-bottom:15px;  }
+#content h3 {  font-size:24px; padding-bottom:5px; margin-bottom:5px;  }
+#content h4 { margin:0; padding:10px 0 5px 0; font-size:20px; text-align:left;   }
+#content h5 { margin:0; padding:10px 0 5px 0; font-size:18px; text-align:left;   }
+#content h6 { margin:0; padding:10px 0 5px 0; font-size:16px; text-align:left;   }
+
+blockquote { margin: 5px 0px 10px 0; padding:5px 0 0px 28px; font:bold 14px Georgia, "Times New Roman", Times, serif; font-style:italic; }
+#content blockquote p { font:16px Georgia, "Times New Roman", Times, serif; font-style:italic; line-height: 22px; }
+blockquote cite { display: block; text-align: right; font-size: 12px; line-height: 15px; }
+
+#content .posts p.date { margin:0 0 8px 0; padding:0; font:11px Arial, Helvetica, sans-serif; text-align:center; letter-spacing:2px; text-transform:uppercase; }
+
+#content .posts p.author { margin:0 0 20px 0; padding:0 0 8px 0; font:11px Arial, Helvetica, sans-serif; text-align:center; letter-spacing:2px; text-transform:uppercase;  }
+
+#content a.morelink  { float:right; font-style:italic; clear:both; margin-bottom:12px; color:#666;  }
+#content .morelink:hover{ color:#333;  }
+
+.post-ratings { clear:both; margin-top:12px; height:100%; overflow:hidden;  }
+
+
+#content .recent_posts { margin:0 -40px 0 0; min-height:250px; _height:250px; }
+#content .recent_posts .posts { width:330px; float:left; margin-right:20px; }
+#content .recent_posts .posts h3  { font-size:22px; }
+
+
+.wp-pagenavi { text-align:center; height:25px; font:bold 14px Arial, Helvetica, sans-serif; line-height:24px; clear:both; margin-bottom:20px; }
+.wp-pagenavi a, .wp-pagenavi a:link, .wp-pagenavi a:active { padding:5px 10px 5px 10px; margin:2px; text-decoration:none;  line-height:24px;  }
+.wp-pagenavi span.pages { padding:5px 10px 5px 10px; margin:2px;  }
+.wp-pagenavi span.current { padding:5px 10px 5px 10px; margin:2px; line-height:25px; font-weight:bold;  }
+.wp-pagenavi span.extend { padding:5px 10px 5px 10px; margin:2px;  line-height:25px;  }
+
+
+.page-nav { clear: both; margin: 0 0px; padding: 2px 0px; height: 22px; }
+.nav-previous { width: 249px; float: left; text-align: left; margin: 2px 0px; }
+.nav-next { width: 249px; float: right; text-align: right; margin: 2px 0px; }
+.page-nav a { text-decoration: none; border-bottom:none; }
+.nav-previous a { padding-left: 11px; text-transform:uppercase; }
+.nav-next a { padding-right: 11px; text-transform:uppercase;  }
+.pagenavi { text-align:center; margin-bottom:15px; }
+
+.navi_spacer { margin-right:40px; }
+
+
+#content p.alert, #content p.download, #content p.info, #content p.note { margin:10px 0 0; padding:10px 10px 10px 36px; }
+
+.scategory { width:40%; float:left; }
+.archives { width:40%; float:left; }
+
+ 
+ 
+/************************************************
+*	Comments									*
+************************************************/
+#content .commentlist li .avatar { float: right; padding:5px; margin-left:10px; }
+#commentform input { width: 210px; padding: 2px; margin: 0px 5px 0px 0px;  }
+#commentform { margin: 5px 10px 0px 0px; height:100%; overflow:hidden; }
+
+#commentform label { font-weight:bold; display:block; float:left; width:110px; padding-bottom:3px; }
+.cancel-comment-reply  a { font-size:12px; }
+
+#commentform .field  { height:100%; overflow:hidden; margin-bottom:5px; font:11px Arial, Helvetica, sans-serif;   }
+#commentform .field label {  font:bold 12px Georgia, "Times New Roman", Times, serif;  }
+
+#commentform textarea { width:330px; padding: 2px; }
+	
+#respond:after { content: "."; display: block; height:0px; clear: both; visibility: hidden; }
+#content .commentlist p { font-weight: normal; text-transform: none; }
+#content .commentmetadata { font-weight: normal; font-size:11px; }
+#commentform p { margin: 5px 0px 5px 0px; }
+	
+#commentform #submit { margin-left:110px; _margin-left:112px; float:left; width:100px; padding:4px 0;   font:bold 14px Arial, Helvetica, sans-serif; cursor:pointer; }
+	
+.alt { margin: 0px; padding: 10px; }
+#content .commentlist { margin: 10px 0 10px 0; padding: 0px; height:100%; overflow:hidden; }
+#content .commentlist ol { margin: 0px; padding: 10px; }
+#content .commentlist li { margin: 15px 0px 10px; padding: 10px 8px 10px 10px; list-style: none; }
+#content .commentlist li ul li {  margin-right:5px; }
+
+#content .commentlist cite { font-size:12px; font-weight:bold; font-style:normal;  }
+
+#content .commentlist li a { font-weight:bold;}
+
+.commentlist p { margin: 10px 5px 10px 0px; padding: 0px; }
+.children {  margin:0px; padding:0px; }
+.nocomments { text-align: center; margin:0px; padding:0px; }
+
+.commentmetadata { font-size: 11px; margin: 0px; display: block; }
+.navigation { display: block; text-align: center; margin-top:10px; margin-bottom:10px; }
+	
+.alignright { float: right; }
+.alignleft { float: left; }
+.thread-alt { margin: 0px; padding: 0px; }
+ 	
+.alt { margin:0px; padding:0px; }
+
+
+
+.gravatar { float:right; margin:0px 0 10px 15px; width:40px; height:40px;  } 
+.commetmainauthor { overflow:hidden; height:100%;  }
+.commetmain { overflow:hidden; height:100%; margin-bottom:15px; }
+
+#content .post-meta-top { margin:0px 0px 15px 0px; padding:5px 0px; overflow:hidden;  height:100%;  }
+#content .post-bottom {  margin:0px 0px 25px 0px; padding:5px 0; clear:both; overflow:hidden;  height:100%; font-size:11px; }
+
+.cat { float:left; width:25%; text-align:left; padding:0px 0px 0px 15px; font-size:11px; }
+
+.comm { float:right; width:38px; height:39px; font-size:22px; line-height:27px; text-align:center; }
+.comm span { text-align:center; padding:5px 0 0 0; }
+.comm a { text-decoration:none; }
+
+
+#content .search404 { margin:4px 8px 0 0; padding:5px 0 0 0px; width:298px; }
+#content .category { float:left; width:48%;  }
+#content .archives { float:right; width:48%; }
+
+/* sidebar ------------------------------------ */
+
+#sidebar .advt { text-align:center; height:100%; overflow:hidden; padding-bottom:15px; }
+#sidebar h2 { margin:0 0 3px 0; padding:5px 0 5px 0; font:normal 18px Arial, Helvetica, sans-serif; }
+#sidebar ul { list-style-type: none; margin:0; }
+#sidebar ul, #sidebar ul li { margin:0 0 20px 0; padding: 0; font:12px Arial, Helvetica, sans-serif; }
+#sidebar ul li ul li { margin: 0; padding:0; }
+#sidebar ul li ul li a {  display:block; padding:5px 0 5px 12px; margin:0; text-decoration:none;   }
+#sidebar ul li ul li a:hover { text-decoration: none; text-decoration: none;  }
+#sidebar ul li ul li ul li { margin:0; padding: 3px 0 3px 22px; }
+#sidebar ul li ul li ul li a { margin: 0; text-decoration: none;  }
+#sidebar ul li ul li ul { padding: 0; margin: 0; }
+ 
+/* footer ------------------------------------ */
+
+#footer p { line-height:18px; font:12px Arial, Helvetica, sans-serif;  }
+#footer p a { text-decoration:none; }
+
+#footer p.top { float:right; padding-left:12px; text-transform:uppercase; }
+#footer p.top a { text-decoration:none; }
+
+
+/*
+P.I.E. FLOAT CLEARING
+See http://www.positioniseverything.net/easyclearing.html 
+--------------------- */
+.clearfix:after { content: "."; clear: both; height: 0; visibility: hidden; display: block; }
+.clearfix {	display: inline-block; /* Fixes IE/Mac */ }
+
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block;}
+/* End hide from IE-mac */

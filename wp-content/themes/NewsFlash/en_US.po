@@ -1,0 +1,170 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: News Flash v1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2010-07-28 13:23+0000\n"
+"Last-Translator: Johan11  3223 <miteshru@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: comments-old.php:110
+#: comments-old.php:113
+#: comments.php:93
+#: comments.php:96
+#@ ptthemes_404error_name
+msgid "*"
+msgstr ""
+
+#: library/functions/custom_functions.php:325
+#@ ptthemes_404error_name
+msgid "<!-- MostWanted Generated  Expires  -->"
+msgstr ""
+
+#: library/functions/custom_functions.php:347
+#@ ptthemes_404error_name
+msgid "<!-- "
+msgstr ""
+
+#: library/functions/custom_functions.php:349
+#@ ptthemes_404error_name
+msgid " -->"
+msgstr ""
+
+#: library/functions/custom_functions.php:369
+#@ ptthemes_404error_name
+msgid "<!-- MostWanted Cache Hit -->"
+msgstr ""
+
+#: library/functions/custom_functions.php:434
+#@ ptthemes_404error_name
+msgid "<p>MostWanted is now updating your stattraq database as a LOW_PRIORITY task.  This will probably take around  minutes.  Your previous statistics are being ever-so-slightly-repaired.  Every record of a post that was accessed using a permalink is having it's post id added to it.</p><ol>"
+msgstr ""
+
+#: library/functions/custom_functions.php:435
+#@ ptthemes_404error_name
+msgid "<p>This page shows the progress of that process.  If you wander off to another page, the process will continue in the background, but you won't know precicely when it's complete.</p>"
+msgstr ""
+
+#: library/functions/custom_functions.php:449
+#@ ptthemes_404error_name
+msgid " - sleeping for  seconds"
+msgstr ""
+
+#: library/functions/custom_functions.php:451
+#@ ptthemes_404error_name
+msgid "</span></li>"
+msgstr ""
+
+#: library/functions/custom_functions.php:459
+#@ ptthemes_404error_name
+msgid "</ol>"
+msgstr ""
+
+#: library/functions/custom_functions.php:460
+#@ ptthemes_404error_name
+msgid "<h1>Finished!</h1>"
+msgstr ""
+
+#: library/functions/most-popular.php:143
+#@ ptthemes_404error_name
+msgid "Title: "
+msgstr ""
+
+#: library/functions/most-popular.php:148
+#@ ptthemes_404error_name
+msgid "Number of posts to display: "
+msgstr ""
+
+#: library/functions/most-popular.php:154
+#@ ptthemes_404error_name
+msgid "Show comment count "
+msgstr ""
+
+#: library/functions/most-popular.php:159
+#@ ptthemes_404error_name
+msgid "Include zero comment posts "
+msgstr ""
+
+#: library/functions/most-popular.php:164
+#@ ptthemes_404error_name
+msgid "If both of the following options are enabled, the <em>only category</em> option is respected."
+msgstr ""
+
+#: library/functions/most-popular.php:167
+#@ ptthemes_404error_name
+msgid "Show comments from all categories "
+msgstr ""
+
+#: library/functions/most-popular.php:171
+#@ ptthemes_404error_name
+msgid "Only show posts in this category."
+msgstr ""
+
+#: library/functions/most-popular.php:175
+#@ ptthemes_404error_name
+msgid "Exclude posts from no categories "
+msgstr ""
+
+#: library/functions/most-popular.php:179
+#@ ptthemes_404error_name
+msgid "Exclude posts in this category."
+msgstr ""
+
+#: library/functions/widgets_functions.php:1085
+#@ ptthemes_404error_name
+msgid "Twitter Account ID"
+msgstr ""
+
+#: library/functions/widgets_functions.php:1090
+#@ ptthemes_404error_name
+msgid "Title"
+msgstr ""
+
+#: library/functions/widgets_functions.php:1096
+#@ ptthemes_404error_name
+msgid "Show Twitter Posts"
+msgstr ""
+
+#: library/functions/yoast-breadcrumbs.php:61
+#@ ptthemes_404error_name
+msgid "Settings"
+msgstr ""
+
+#: library/functions/yoast-breadcrumbs.php:69
+#@ ptthemes_404error_name
+msgid "You cannot edit the Yoast Breadcrumbs options."
+msgstr ""
+
+#: library/functions/yoast-posts.php:23
+#@ ptthemes_404error_name
+msgid "Yoast - Tweaking Websites"
+msgstr ""
+
+#: search.php:13
+#, php-format
+#@ ptthemes_404error_name
+msgid "%s"
+msgstr ""
+
+#: single.php:56
+#@ ptthemes_404error_name
+msgid "Previous"
+msgstr ""
+
+#: single.php:57
+#@ ptthemes_404error_name
+msgid "Next"
+msgstr ""
+

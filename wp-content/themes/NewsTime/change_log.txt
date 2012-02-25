@@ -1,0 +1,47 @@
+10th Feb - 2011
+------------------------------------------------
+wp-admin > Desing settings > favicon uploaded
+------------------------------------------------
+library/functions/admin_options.php
+library/functions/admin_functions.php
+
+
+
+
+7, Jan 2011 ( post details - lightbox issue solved)
+----------------------------------
+single.php
+library/js/fancybox (new javascript,css,images added)
+
+Removed this files
+-------------------------
+library/js/mootools.js
+library/js/slimbox.js
+library/css/slimbox.css 
+
+
+21 Dec -Dec2010
+----------------------------------
+searchform.php
+
+
+30th -Oct 2010 (background issue solved)
+-----------------------------------
+1-default.css
+2-blue.css
+3-green.css
+4-orange.css
+5-yellow.css
+6-pink.css
+7-purple.css
+8-bottlegreen.css
+
+16th -sep 2010 (popular widget update & search go button issue fixing )
+------------------------------------
+style.css
+library/functions/widgets_functions.php
+
+
+16th -sep 2010 (removed dropdownmenu.css and slider.css link code)
+------------------------------------
+header.php
