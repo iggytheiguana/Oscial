@@ -1,0 +1,19 @@
+/* 
+    Document   : custom
+    Created on : Feb 29, 2012, 4:18:55 PM
+    Author     : bobby
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#rss {
+    margin-left:10px;
+    margin-top:10px;
+    margin-right:10px;
+    float:right;
+}
+
+.entry-content p
+{
+    font-size:15px;
+} 

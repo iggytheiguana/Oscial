@@ -211,6 +211,7 @@ function show_categories_menu(){
 	$category_menu = wp_list_categories("orderby=".get_option($shortname.'_sort_cat')."&order=".get_option($shortname.'_order_cat')."&".$strdepth2."&exclude=".$exclude_cats."&hide_empty=".$hide."&title_li=&echo=0");
 	
 	echo('<ul class="nav superfish clearfix">');
+        echo('<li><a href="http://www.oscial.com" title="Home">home</a></li>');
 		if ($category_menu <> '<li>No categories</li>') echo($category_menu); 
 	echo('</ul>');
 };

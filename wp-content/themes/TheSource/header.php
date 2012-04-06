@@ -47,7 +47,7 @@
 			<!-- End Logo -->
 			
 			<!-- Start Page-menu -->
-			<div id="page-menu">
+			<!--<div id="page-menu">
 				<div id="p-menu-left"> </div>
 				<div id="p-menu-content">
 				
@@ -60,7 +60,7 @@
 				
 				</div>	
 				<div id="p-menu-right"> </div>
-			</div>	<!-- end #page-menu -->	
+			</div> -->	<!-- end #page-menu -->	
 			<!-- End Page-menu -->	
 			
 			<div id="cat-nav" class="clearfix">	
@@ -73,8 +73,17 @@
 					if (function_exists('wp_nav_menu')) $secondaryNav = wp_nav_menu( array( 'theme_location' => 'secondary-menu', 'container' => '', 'fallback_cb' => '', 'menu_class' => $menuClass, 'echo' => false ) );
 					if ($secondaryNav == '') show_categories_menu($menuClass);
 					else echo($secondaryNav); ?>
-
-					<!-- Start Searchbox -->
+                                        
+                                        <?php
+                                        $primaryNav = '';
+					
+					if (function_exists('wp_nav_menu')) $primaryNav = wp_nav_menu( array( 'theme_location' => 'primary-menu', 'container' => '', 'fallback_cb' => '', 'menu_class' => $menuClass, 'echo' => false ) );
+					if ($primaryNav == '') show_page_menu($menuClass);
+					else echo($primaryNav); ?>
+                                   <div id="rss">
+                                        <p><a href="http://feeds.feedburner.com/Oscial" rel="alternate" type="application/rss+xml"><img src="http://www.feedburner.com/fb/images/pub/feed-icon16x16.png" alt="" style="vertical-align:middle;border:0"/></a>&nbsp;<a href="http://feeds.feedburner.com/Oscial" rel="alternate" type="application/rss+xml"></a></p>
+                                    </div>
+                                        <!-- Start Searchbox -->
 					<div id="search-form">
 						<form method="get" id="searchform1" action="<?php bloginfo('url'); ?>">
 							<input type="text" value="<?php _e('search...','TheSource'); ?>" name="s" id="searchinput" />

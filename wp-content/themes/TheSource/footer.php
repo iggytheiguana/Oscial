@@ -31,7 +31,7 @@
 		if ($footerNav == '') show_page_menu($menuClass);
 		else echo($footerNav); ?>
 		
-		<p id="copyright"><?php _e('Designed by ','TheSource'); ?> <a href="http://www.elegantthemes.com" title="Elegant Themes">Elegant Themes</a> | <?php _e('Powered by ','TheSource'); ?> <a href="http://www.wordpress.org">Wordpress</a></p>
+		<p id="copyright"> Copyright &copy; 2012 <a class="link-bluelabel" href="http://www.bluelabellabs.com">Blue Label Labs; Blue Label Solutions LLC.</a>  All rights reserved.</p>
 	</div> <!--end .container -->
 </div> <!-- end #footer-bottom -->
 
